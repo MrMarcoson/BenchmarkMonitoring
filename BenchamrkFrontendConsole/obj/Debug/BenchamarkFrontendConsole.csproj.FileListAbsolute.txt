@@ -1,0 +1,14 @@
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\BenchamrkFrontendConsole.exe.config
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\BenchamrkFrontendConsole.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\BenchamrkFrontendConsole.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\BenchmarkLibrary.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\BenchmarkLibrary.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamarkFrontendConsole.csproj.AssemblyReference.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamarkFrontendConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamarkFrontendConsole.csproj.CoreCompileInputs.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamarkFrontendConsole.csproj.CopyComplete
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamrkFrontendConsole.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\obj\Debug\BenchamrkFrontendConsole.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\OpenHardwareMonitorLib.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchamrkFrontendConsole\bin\Debug\Newtonsoft.Json.xml
