@@ -49,6 +49,7 @@ namespace BenchmarkLibrary
                 data.Add(hardware.Name, ram);
             }
 
+            //JSON DATA SERIALIZATION ETC
             string json = JsonConvert.SerializeObject(data, Formatting.Indented);
             Console.Write(json + "\n");
 
