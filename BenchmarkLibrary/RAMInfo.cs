@@ -48,24 +48,6 @@ namespace BenchmarkLibrary
 
                 data.Add(hardware.Name, ram);
             }
-
-            //JSON DATA SERIALIZATION ETC
-            string json = JsonConvert.SerializeObject(data, Formatting.Indented);
-            Console.Write(json + "\n");
-
-            Dictionary<string, Dictionary<string, string>> deserialized = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(json);
-
-            foreach (var hardware in deserialized)
-            {
-                Console.Write(hardware.Key + "\n");
-
-                foreach (var stat in hardware.Value)
-                {
-                    Console.Write("\t" + stat.Key + ": " + stat.Value + "\n");
-                }
-
-                Console.Write("\n");
-            }
         }
     }
 }

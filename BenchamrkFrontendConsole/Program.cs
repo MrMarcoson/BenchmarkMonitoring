@@ -8,18 +8,24 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using BenchmarkLibrary;
+using Newtonsoft.Json;
 
 namespace BenchamrkFrontendConsole
 {
 
     internal class Program
     {
+        static Dictionary<string, Dictionary<string, string>> deserialize(string json)
+        {
+            return JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(json);
+        }
+
         static void printInfo(int choice)
         {
             Dictionary<string, Dictionary<string, string>> data = new Dictionary<string, Dictionary<string, string>>();
             Console.CursorVisible = false;
             ConsoleKeyInfo key = new ConsoleKeyInfo();
-
+            string content = "";
             while (true)
             {
                 Console.SetCursorPosition(0, 0);
@@ -27,13 +33,16 @@ namespace BenchamrkFrontendConsole
                 switch (choice)
                 {
                     case 1:
-                        data = new CPUInfo().data;
+                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\CPU.json");
+                        data = deserialize(content);
                         break;
                     case 2:
-                        data = new GPUInfo().data;
+                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\GPU.json");
+                        data = deserialize(content); 
                         break;
                     case 3:
-                        data = new RAMInfo().data;
+                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\RAM.json");
+                        data = deserialize(content); 
                         break;
                 }
 
@@ -59,7 +68,6 @@ namespace BenchamrkFrontendConsole
                 }
 
                 Console.WriteLine("Press Enter to go back...");
-                Thread.Sleep(500);
             }
         }
 

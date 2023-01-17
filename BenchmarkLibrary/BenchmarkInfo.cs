@@ -9,15 +9,15 @@ namespace BenchmarkLibrary
 {
     public class BenchmarkInfo
     {
-        string CPU { get; set; }
-        string GPU { get; set; }
-        string RAM { get; set; }
+        public string CPU { get; set; }
+        public string GPU { get; set; }
+        public string RAM { get; set; }
 
         public BenchmarkInfo()
         {
             CPU = serializeData(new CPUInfo().data);
-            GPU = serializeData(new CPUInfo().data);
-            RAM = serializeData(new CPUInfo().data);
+            GPU = serializeData(new GPUInfo().data);
+            RAM = serializeData(new RAMInfo().data);
         }
 
         private string serializeData(Dictionary<string, Dictionary<string, string>> data)

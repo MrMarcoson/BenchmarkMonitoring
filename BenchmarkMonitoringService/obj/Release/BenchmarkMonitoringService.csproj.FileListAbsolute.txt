@@ -1,0 +1,16 @@
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\BenchmarkLibrary.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\OpenHardwareMonitorLib.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\Newtonsoft.Json.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\BenchmarkLibrary.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\Newtonsoft.Json.xml
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.csproj.AssemblyReference.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.ProjectInstaller.resources
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.csproj.GenerateResource.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.csproj.CoreCompileInputs.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.csproj.CopyComplete
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\BenchmarkMonitoringService.exe.config
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\BenchmarkMonitoringService.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Release\BenchmarkMonitoringService.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Release\BenchmarkMonitoringService.pdb
