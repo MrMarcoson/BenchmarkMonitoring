@@ -18,3 +18,6 @@ C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Release\
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Release\BenchmarkMonitoringTests.csproj.CopyComplete
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Release\BenchmarkMonitoringTests.dll
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Release\BenchmarkMonitoringTests.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Release\BenchamrkFrontendConsole.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Release\BenchamrkFrontendConsole.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Release\BenchamrkFrontendConsole.exe.config

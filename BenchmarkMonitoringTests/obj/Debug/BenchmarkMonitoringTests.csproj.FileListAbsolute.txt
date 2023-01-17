@@ -19,5 +19,4 @@ C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Debug\Be
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Debug\BenchmarkMonitoringTests.dll
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\obj\Debug\BenchmarkMonitoringTests.pdb
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Debug\BenchamrkFrontendConsole.exe
-C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Debug\BenchamrkFrontendConsole.pdb
 C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringTests\bin\Debug\BenchamrkFrontendConsole.exe.config
