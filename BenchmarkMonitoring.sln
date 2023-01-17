@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchamarkMonitoringFrontendConsole", "BenchamrkFrontendConsole\BenchamarkMonitoringFrontendConsole.csproj", "{9D108930-96CA-434D-AA4E-373054040DE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkMonitoringFrontendConsole", "BenchamrkFrontendConsole\BenchmarkMonitoringFrontendConsole.csproj", "{9D108930-96CA-434D-AA4E-373054040DE3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FBCEFB0B-0799-4C35-AB35-A04326666710} = {FBCEFB0B-0799-4C35-AB35-A04326666710}
 	EndProjectSection
@@ -11,6 +11,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkMonitoringLibrary", "BenchmarkLibrary\BenchmarkMonitoringLibrary.csproj", "{FBCEFB0B-0799-4C35-AB35-A04326666710}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkMonitoringService", "BenchmarkMonitoringService\BenchmarkMonitoringService.csproj", "{74B08CE4-BC76-4366-AAFC-0DB75CDF1DBA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BenchmarkMonitoringSetup", "BenchmarkMonitoringSetup\BenchmarkMonitoringSetup.vdproj", "{169A0083-8044-4081-8849-A76F7AF64A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkMonitoringTests", "BenchmarkMonitoringTests\BenchmarkMonitoringTests.csproj", "{EC1602D1-C37B-430E-AE80-F1422C15B2DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,12 @@ Global
 		{74B08CE4-BC76-4366-AAFC-0DB75CDF1DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B08CE4-BC76-4366-AAFC-0DB75CDF1DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B08CE4-BC76-4366-AAFC-0DB75CDF1DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169A0083-8044-4081-8849-A76F7AF64A1C}.Debug|Any CPU.ActiveCfg = Debug
+		{169A0083-8044-4081-8849-A76F7AF64A1C}.Release|Any CPU.ActiveCfg = Release
+		{EC1602D1-C37B-430E-AE80-F1422C15B2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1602D1-C37B-430E-AE80-F1422C15B2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1602D1-C37B-430E-AE80-F1422C15B2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1602D1-C37B-430E-AE80-F1422C15B2DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

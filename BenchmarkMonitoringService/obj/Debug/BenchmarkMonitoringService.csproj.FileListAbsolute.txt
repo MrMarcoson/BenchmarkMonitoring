@@ -1,0 +1,16 @@
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\BenchmarkMonitoringService.exe.config
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\BenchmarkMonitoringService.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\BenchmarkMonitoringService.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\BenchmarkLibrary.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\OpenHardwareMonitorLib.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\BenchmarkLibrary.pdb
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.csproj.AssemblyReference.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.ProjectInstaller.resources
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.csproj.GenerateResource.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.csproj.CoreCompileInputs.cache
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.csproj.CopyComplete
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.exe
+C:\Users\Marek\Desktop\BenchmarkMonitoring\BenchmarkMonitoringService\obj\Debug\BenchmarkMonitoringService.pdb

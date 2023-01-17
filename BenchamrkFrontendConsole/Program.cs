@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -10,12 +11,12 @@ using System.Threading.Tasks;
 using BenchmarkLibrary;
 using Newtonsoft.Json;
 
-namespace BenchamrkFrontendConsole
+namespace BenchmarkFrontendConsole
 {
 
-    internal class Program
+    public class Program
     {
-        static Dictionary<string, Dictionary<string, string>> deserialize(string json)
+        static public Dictionary<string, Dictionary<string, string>> deserialize(string json)
         {
             return JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(json);
         }
@@ -25,27 +26,34 @@ namespace BenchamrkFrontendConsole
             Dictionary<string, Dictionary<string, string>> data = new Dictionary<string, Dictionary<string, string>>();
             Console.CursorVisible = false;
             ConsoleKeyInfo key = new ConsoleKeyInfo();
-            string content = "";
+
             while (true)
             {
-                Console.SetCursorPosition(0, 0);
-
+                string filePath = @"D:\Development\BenchmarkMonitoring\";
                 switch (choice)
                 {
                     case 1:
-                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\CPU.json");
-                        data = deserialize(content);
+                        filePath += "CPU.json";
                         break;
                     case 2:
-                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\GPU.json");
-                        data = deserialize(content); 
+                        filePath += "GPU.json";
                         break;
                     case 3:
-                        content = File.ReadAllText(@"D:\Development\BenchmarkMonitoring\RAM.json");
-                        data = deserialize(content); 
+                        filePath += "RAM.json";
                         break;
                 }
 
+                Stream stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+                StreamReader streamReader = new StreamReader(stream);
+                string content = streamReader.ReadToEnd();
+                streamReader.Close();
+                stream.Close();
+
+                data = deserialize(content);
+
+                if (data is null) continue;
+
+                Console.SetCursorPosition(0, 0);
                 foreach (var hardware in data)
                 {
                     Console.BackgroundColor = ConsoleColor.Red;
@@ -62,18 +70,22 @@ namespace BenchamrkFrontendConsole
                     if(Console.KeyAvailable)
                     {
                         key = Console.ReadKey(true);
-                        if(key.Key.Equals(ConsoleKey.Enter)) return;
+                        if (key.Key.Equals(ConsoleKey.Enter))
+                        {
+                            Console.CursorVisible = true;
+                            return;
+                        }
                     }
 
                 }
 
                 Console.WriteLine("Press Enter to go back...");
             }
+
         }
 
         static void Main(string[] args)
         {
-            Console.CursorVisible = false;
             Console.SetWindowPosition(0, 0);
             Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
 
@@ -86,6 +98,7 @@ namespace BenchamrkFrontendConsole
                 Console.ResetColor();
                 Console.WriteLine("1. CPU \n2. GPU \n3. RAM \n4. Exit\n");
 
+                Console.Write(">");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 if (choice >= 4 || choice <= 0) break;
 

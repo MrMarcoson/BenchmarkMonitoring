@@ -50,6 +50,24 @@ namespace BenchmarkMonitoringService
             eventLog.Source = source;
         }
 
+        private void SetupDatabase(string databasePath)
+        {
+            if (!File.Exists(databasePath + "/" + "CPU.json"))
+            {
+                File.Create(databasePath + "/" + "CPU.json");
+            }
+
+            if (!File.Exists(databasePath + "/" + "GPU.json"))
+            {
+                File.Create(databasePath + "/" + "GPU.json");
+            }
+
+            if (!File.Exists(databasePath + "/" + "RAM.json"))
+            {
+                File.Create(databasePath + "/" + "RAM.json");
+            }
+        }
+
         private void SetupTimer()
         {
             timer = new System.Timers.Timer();
@@ -66,9 +84,10 @@ namespace BenchmarkMonitoringService
 
         private void WriteToFile(string fileName, string data)
         {
-            FileInfo file = new FileInfo(databasePath + "/" + fileName);
-            file.Directory.Create();
-            File.WriteAllText(file.FullName, data);
+            using (StreamWriter writer = new StreamWriter(databasePath + "/" + fileName, false))
+            {
+                writer.Write(data);
+            }
         }
 
         private void CreateAndSaveBenchmarkInfo()
@@ -77,9 +96,7 @@ namespace BenchmarkMonitoringService
             WriteToFile("CPU.json", benchmarkInfo.CPU);
             WriteToFile("GPU.json", benchmarkInfo.GPU);
             WriteToFile("RAM.json", benchmarkInfo.RAM);
-            numberOfSaves++;
-            WriteToFile("number.txt", numberOfSaves.ToString());
-            EventLog.WriteEntry("Benchmark Info saved to files.");
+            EventLog.WriteEntry("Benchmark Info saved to files." + benchmarkInfo.CPU);
         }
 
         private void OnTimerFinish(object source, ElapsedEventArgs e)
@@ -91,6 +108,7 @@ namespace BenchmarkMonitoringService
         {
             SetupProperties();
             SetupEventLog(eventLogName, source);
+            SetupDatabase(databasePath);
             CreateAndSaveBenchmarkInfo();
             SetupTimer();
             EventLog.WriteEntry("BenchmarkService starts.");
