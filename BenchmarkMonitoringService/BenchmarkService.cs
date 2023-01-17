@@ -96,7 +96,7 @@ namespace BenchmarkMonitoringService
             WriteToFile("CPU.json", benchmarkInfo.CPU);
             WriteToFile("GPU.json", benchmarkInfo.GPU);
             WriteToFile("RAM.json", benchmarkInfo.RAM);
-            EventLog.WriteEntry("Benchmark Info saved to files." + benchmarkInfo.CPU);
+            EventLog.WriteEntry("Benchmark Info saved to files.");
         }
 
         private void OnTimerFinish(object source, ElapsedEventArgs e)

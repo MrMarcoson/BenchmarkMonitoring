@@ -1,5 +1,5 @@
 # BenchmarkMonitoring
- C# project for uni
+ C# project for uni by Marek Kasprowicz
 
 ```mermaid
 sequenceDiagram
