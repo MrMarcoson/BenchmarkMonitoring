@@ -72,7 +72,7 @@ namespace BenchmarkMonitoringTests
                 {
                     double coreTemp = Convert.ToDouble(hardware["GPU Core Temperature"]);
                     double hotTemp = Convert.ToDouble(hardware["GPU Hot Spot Temperature"]);
-                    Assert.IsTrue(coreTemp >= 0 && hotTemp >= 0);
+                    Assert.IsTrue(coreTemp >= 0 && hotTemp >= 0, "Temperatures are out of rational range");
                 }
             }
 
